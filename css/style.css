@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.header {
+    height: 250px;
+    background-color: red;
+}
+
+.menu {
+    height: 70px;
+    background-color: pink;
+}
+
+.sidebar {
+    height: 600px;
+    width: 30%;
+    float: left;
+    background-color: brown;
+}
+
+.main {
+    box-sizing: border-box;
+    height: 600px;
+    width: 70%;
+    float: right;
+    background-color: gold;
+    padding: 20px 15px;
+}
+
+.main p {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.jokowi {
+    padding: 10px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    height: 100px;
+    background-color: black;
+}
